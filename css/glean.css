@@ -1,0 +1,131 @@
+/*
+*Map
+**/
+
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    width: 65%;
+}
+
+/*
+*Side Panel
+**/
+
+#side-panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 35%;
+    background: whitesmoke;
+    border-right: 2px solid #1C9976;
+    overflow-y: scroll;
+}
+
+#side-panel p {
+    margin: 8px 0 4px; 
+    padding: 0 25px 0 15px;
+    color: #3d3d3d;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#poptext {
+	margin: 4px 0 4px;
+    padding: 0 25px 0 15px;
+}
+
+#side-panel dl {}
+
+#side-panel dt, #side-panel dd {
+    display: inline;
+    float: left;
+    margin-bottom:10px;
+    color: #00515b;
+}
+
+#side-panel dt {
+    width:60%;
+    clear:left;
+}
+
+#side-panel dd {
+    width:38%;
+}
+/*
+* Glean header (gleaned from the Glean website glean header)
+**/
+
+#header {
+	background: url(http://www.gleanky.org/wp-content/themes/glean_ky/images/headerBg.gif);
+	height: 110px;
+}
+
+#logo {
+    position: absolute;
+    top: 24px;
+    left: 28px;
+    max-width: auto;
+}
+
+/*
+* Text
+**/
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	text-align: left;
+	font-weight: normal;
+}
+h1 {
+    padding: 8px 25px 8px 15px;
+    margin: 0;
+    background-color: #79ac00;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #7fa8ad;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+    color: #00515b;
+}
+
+
+/*
+* I am legend
+**/
+
+.legend {
+	line-height: 24px;
+	color: #333333;
+	font-family: 'Varela Round', sans-serif;
+	padding: 6px 8px;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	opacity: 1;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 1.0;
+} 
+.legend .circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 8px;
+}
+
